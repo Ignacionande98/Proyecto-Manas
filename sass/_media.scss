@@ -1,0 +1,49 @@
+@media (max-width:600px) {
+    #siteIntro {
+      grid-template-columns: 1fr;
+      padding: 25px;
+    }
+    #siteIntro .introInfo {
+      text-align: center;
+    }
+    #siteIntro .prf-main {
+      display: none;
+    }
+    .siteProductos {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 20px;
+      
+    }
+    #localFlorida {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 25px;
+
+    }
+
+    .articulosdeProductos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+    }
+
+    .articulosdeProductos .tartasdePrd {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+
+    .tituloProductos .productoshdos {
+      display: none;
+      
+    }
+
+    
+
+      
+   
+    
+    
+
+  }

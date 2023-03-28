@@ -1,0 +1,50 @@
+.footer {
+    width: 100%;
+    & &_titulo {
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        
+        
+    }
+    & &_hdos{
+        font: {
+            size: 20px;
+            weight: 700;
+        }
+        margin-top: 10px;
+        
+    }
+    & &_paginas{
+  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        width: 100%;
+        margin: 10px auto;
+        max-width: 1200px;
+        
+    }
+    & &_htres{
+        color: #f8d7da;
+        font-size: 15px;
+        border-radius: 15px;
+        background-color:$colorPrincipal;
+        padding: 10px;
+    }
+    & &_redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    & &_copy{
+        color:$colorPrincipal;
+        display: flex;
+        justify-content: center;
+        font-size: $txtParrafos;
+        margin-top: 20px;
+    }
+}
+    
