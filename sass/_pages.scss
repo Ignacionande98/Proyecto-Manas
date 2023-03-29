@@ -1,0 +1,84 @@
+.contenido {
+    display: flex;
+    justify-content: center; 
+    & &_huno {
+        color: $colorPrincipal;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    & &_p {
+        text-align: center;
+        font-size: 20px;
+        color: $colorPrincipal;
+        font-weight: 700; 
+    }
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 1200px;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+    & &_florida {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $colorDefondo;
+        width: 100%;
+        height: auto;
+    }
+    & &_img {
+        width: 100%;
+        height: auto;
+    }
+    & &_titulos {
+        color: $colorPrincipal;
+        font-weight: 700;
+    }
+}    
+
+
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    & &_huno {
+        color: $colorPrincipal;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+}
+
+
+
+.main {
+
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    & &_huno {
+        font: {
+            size:40px ;
+            weight:700;
+        }
+        text-align: center;
+        color: $colorPrincipal;
+        margin-top: 10px;
+    }
+    & &_hdos {
+        font: {
+            size: 25px;
+            weight:700;
+        }
+        text-align: center;
+        color: $colorPrincipal;
+    }
+    
+}
