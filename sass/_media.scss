@@ -17,12 +17,12 @@
     }
     .section {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
       padding: 25px;
 
     }
 
-    .articulosdeProductos {
+    .articulo {
       display: grid;
       grid-template-columns: 1fr 1fr;
       
