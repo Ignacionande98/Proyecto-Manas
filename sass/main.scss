@@ -5,17 +5,10 @@
 
 
 //partials
-@import "vars";
+@import "vars" ;
 @import "footer";
 @import "media";
 @import "pages";
-
-
-
-
-
-
-
 
 
 
@@ -36,11 +29,13 @@
     .articulos {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      
     }
     
+  }
+    
+   
+    
 
-}
 
 
 

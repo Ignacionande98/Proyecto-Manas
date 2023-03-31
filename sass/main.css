@@ -20,11 +20,26 @@
   max-width: 1200px;
 }
 .footer .footer_htres {
-  color: #f8d7da;
-  font-size: 15px;
-  border-radius: 15px;
-  background-color: #212529;
+  color: #212529;
+  font-size: 25px;
   padding: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+.footer .footer_mdeo {
+  color: #212529;
+  text-align: center;
+  font-weight: 300;
+}
+.footer .footer_prf {
+  text-align: center;
+  color: #212529;
+  font-weight: 300;
+}
+.footer .footer_hseis {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 700;
 }
 .footer .footer_redes {
   display: flex;
@@ -39,6 +54,8 @@
   justify-content: center;
   font-size: 15px;
   margin-top: 20px;
+  font-weight: 700;
+  font-size: 10px;
 }
 
 .contenido {
@@ -148,8 +165,8 @@
 }
 .articulos .articulos_div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column-reverse;
+  align-items: flex-end;
   background-color: #f8d7da;
   padding: 10px;
 }

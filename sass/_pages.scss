@@ -118,8 +118,8 @@
     
     & &_div {
         display: flex;
-        flex-direction: column;
-        align-items:center;
+        flex-direction: column-reverse;
+        align-items:flex-end;
         background-color: #f8d7da;
         padding: 10px;
         

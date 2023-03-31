@@ -16,7 +16,7 @@
         
     }
     & &_paginas{
-  
+        
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
@@ -26,11 +26,34 @@
         
     }
     & &_htres{
-        color: #f8d7da;
-        font-size: 15px;
-        border-radius: 15px;
-        background-color:$colorPrincipal;
+        color: $colorPrincipal;
+        font-size: 25px;
         padding: 10px;
+        font-weight: 700;
+        
+        text-align: center;
+        
+        
+    }
+    & &_mdeo {
+        color: $colorPrincipal;
+        text-align: center;
+        
+        font-weight: 300;
+    }
+    & &_prf { 
+        text-align: center;
+        color: $colorPrincipal;
+        font-weight: 300;
+        
+    }
+    & &_hseis {
+        color: $colorPrincipal;
+        font: {
+            size: 20px;
+            weight: 700;
+        }
+        
     }
     & &_redes{
         display: flex;
@@ -39,12 +62,17 @@
         gap: 10px;
         margin-top: 15px;
     }
+   
     & &_copy{
         color:$colorPrincipal;
         display: flex;
         justify-content: center;
         font-size: $txtParrafos;
         margin-top: 20px;
+        font: {
+            weight:700;
+            size: 10px;
+        }
     }
 }
     
