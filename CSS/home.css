@@ -503,14 +503,30 @@
     
     
     
-    
+    @media (max-width:600px) {
+  .tortas {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  & &_div {
+    display: flex;
+  }
+}
     
     
     
     
     */
     
-    
+    @media (max-width:600px) {
+      .tortas {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .tortas_div {
+        display: flex;
+      }
+    }
     
     @media (max-width:600px) {
       #siteIntro {
@@ -536,13 +552,13 @@
   
       }
   
-      .articulosdeProductos {
+      .articulos {
         display: grid;
         grid-template-columns: 1fr 1fr;
         
       }
   
-      .articulosdeProductos .tartasdePrd {
+      .articulos_div {
         display: flex;
         flex-direction: column-reverse;
       }

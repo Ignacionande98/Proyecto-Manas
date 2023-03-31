@@ -12,10 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../sass/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-danger-subtle sticky-top">
+    <nav class="navbar navbar-expand-lg bg-danger-subtle sticky-top mt-2">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
             <img src="../img/logo-brownie.jpg" alt="logo" width="100px" height="auto">
@@ -57,9 +60,81 @@
 
       
       <section class="contactos">
-        <h1 class="contactos_huno">Contactanos</h1>
+        <h1 class="contactos_huno animate__animated animate__bounceInLeft ">Contactanos</h1>
         
       </section>
+
+      <div class="container ">
+
+        <div class="container text-center">
+
+          <div class="row">
+            <div class="col-md-6 mt-2">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/budding.jpg" class="d-block w-100" alt="alfajor">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/brownie-merengue.jpg" class="d-block w-100" alt="buding">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/choco-late.jpg" class="d-block w-100" alt="chocolate">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6 bg-danger-subtle border-dark border border-1 mt-2 p-3 ">
+              <div class="mb-3 mt-2">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar nombre">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese apellido">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+
+              <label for="inputPassword5" class="form-label">Contraseña</label>
+              <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+              <div id="passwordHelpBlock" class="form-text">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Consultas</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Quejas</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              
+              
+              
+              <button type="button" class="btn btn-dark">Enviar</button>
+              
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
 
       
             
@@ -131,7 +206,11 @@
 
 
      
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <script>
+      AOS.init();
+    </script>
   
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

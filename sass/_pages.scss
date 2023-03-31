@@ -15,7 +15,7 @@
     }
 }
 
-.section {
+.locales {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 15px auto;
@@ -105,6 +105,8 @@
         letter-spacing: 1px;
     }
 }
+
+
 .articulos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -113,11 +115,15 @@
     margin: 0 auto;
     gap: 30px;
     padding: 20px;
+    
     & &_div {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items:center;
         background-color: #f8d7da;
+        padding: 10px;
+        
+       
     }
     & &_hcinco {
         text-align: center;
@@ -128,4 +134,46 @@
         width: 100%;
         height: auto;
     }
-}    
+    
+}
+    
+    
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & &_htres {
+        font: {
+            size: 40px; 
+            weight: 300;
+        }
+        color: $colorPrincipal;
+    }
+    & &_p {
+        font-size: 20px;
+    }
+  }
+
+
+  .tortas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    
+    & &_div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f8d7da;
+      border-radius: 10px;
+    }
+    & &_img {
+      width: 100%;
+      height: auto;
+    }
+  }

@@ -41,39 +41,6 @@
   margin-top: 20px;
 }
 
-@media (max-width: 600px) {
-  #siteIntro {
-    grid-template-columns: 1fr;
-    padding: 25px;
-  }
-  #siteIntro .introInfo {
-    text-align: center;
-  }
-  #siteIntro .prf-main {
-    display: none;
-  }
-  .siteProductos {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 20px;
-  }
-  .section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 25px;
-  }
-  .articulo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .articulosdeProductos .tartasdePrd {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .tituloProductos .productoshdos {
-    display: none;
-  }
-}
 .contenido {
   display: flex;
   justify-content: center;
@@ -91,7 +58,7 @@
   font-weight: 700;
 }
 
-.section {
+.locales {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 15px auto;
@@ -101,7 +68,7 @@
   gap: 20px;
   padding: 20px;
 }
-.section .section_florida {
+.locales .locales_florida {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,11 +76,11 @@
   width: 100%;
   height: auto;
 }
-.section .section_img {
+.locales .locales_img {
   width: 100%;
   height: auto;
 }
-.section .section_titulos {
+.locales .locales_titulos {
   color: #212529;
   font-weight: 700;
   display: flex;
@@ -184,6 +151,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #f8d7da;
+  padding: 10px;
 }
 .articulos .articulos_hcinco {
   text-align: center;
@@ -195,30 +163,54 @@
   height: auto;
 }
 
-.section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 15px auto;
-  width: 100%;
-  max-width: 1200px;
-  align-items: start;
-  gap: 20px;
-  padding: 20px;
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.section .section_florida {
+.descripcion .descripcion_htres {
+  font-size: 40px;
+  font-weight: 300;
+  color: #212529;
+}
+.descripcion .descripcion_p {
+  font-size: 20px;
+}
+
+.tortas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.tortas .tortas_div {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f8d7da;
+  border-radius: 10px;
+}
+.tortas .tortas_img {
   width: 100%;
   height: auto;
 }
-.section .section_img {
-  width: 100%;
-  height: auto;
-}
-.section .section_titulos {
-  color: #212529;
-  font-weight: 700;
-  display: flex;
+
+@media (max-width: 600px) {
+  .tortas {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .locales {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .articulos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }/*# sourceMappingURL=main.css.map */
