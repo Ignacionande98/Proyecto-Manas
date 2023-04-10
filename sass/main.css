@@ -165,8 +165,8 @@
 }
 .articulos .articulos_div {
   display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
   background-color: #f8d7da;
   padding: 10px;
 }
@@ -215,6 +215,64 @@
   height: auto;
 }
 
+.promociones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.promociones .promociones_htres {
+  font-size: 40px;
+  font-weight: 300;
+  color: #212529;
+}
+
+.ofertas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 20px;
+}
+.ofertas .ofertas_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8d7da;
+  border-radius: 10px;
+  width: 400px;
+}
+.ofertas .ofertas_img {
+  width: 100%;
+  height: auto;
+}
+
+.descuento {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 20px;
+}
+.descuento .descuento_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8d7da;
+  border-radius: 10px;
+  width: 400px;
+}
+.descuento .descuento_img {
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: 600px) {
   .tortas {
     display: grid;
@@ -229,5 +287,12 @@
   .articulos {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .articulos_div {
+    display: flex;
+  }
+  .ofertas {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=main.css.map */

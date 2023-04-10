@@ -27,7 +27,7 @@
     
     & &_florida {
         display: flex;
-
+        
         flex-direction: column;
         align-items: center;
         background-color: $colorDefondo;
@@ -118,8 +118,8 @@
     
     & &_div {
         display: flex;
-        flex-direction: column-reverse;
-        align-items:flex-end;
+        flex-direction: column;
+        align-items:center;
         background-color: #f8d7da;
         padding: 10px;
         
