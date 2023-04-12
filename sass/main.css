@@ -225,6 +225,7 @@
   font-size: 40px;
   font-weight: 300;
   color: #212529;
+  text-transform: uppercase;
 }
 
 .ofertas {
@@ -243,34 +244,25 @@
   align-items: center;
   background-color: #f8d7da;
   border-radius: 10px;
-  width: 400px;
+  width: 80%;
 }
 .ofertas .ofertas_img {
   width: 100%;
   height: auto;
 }
 
-.descuento {
+.mapas {
   display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr;
   max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
-  margin-top: 20px;
+  gap: 20px;
+  justify-items: center;
 }
-.descuento .descuento_div {
+.mapas .mapas_div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f8d7da;
-  border-radius: 10px;
-  width: 400px;
-}
-.descuento .descuento_img {
-  width: 100%;
-  height: auto;
+  width: 60%;
+  border: 2px solid #f8d7da;
 }
 
 @media (max-width: 600px) {
@@ -294,5 +286,11 @@
   .ofertas {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .mapas {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
   }
 }/*# sourceMappingURL=main.css.map */

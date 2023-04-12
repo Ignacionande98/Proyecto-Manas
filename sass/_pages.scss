@@ -16,6 +16,7 @@
 }
 
 .locales {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 15px auto;
@@ -43,8 +44,10 @@
         font-weight: 700;
         display: flex ;
     }
-}  
+    
+}
 
+  
 
 
 .contactos {
@@ -171,6 +174,42 @@
       align-items: center;
       background-color: #f8d7da;
       border-radius: 10px;
+    }
+    & &_img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .promociones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    & &_htres{
+      font-size: 40px;
+      font-weight: 300;
+      color: #212529;
+      text-transform: uppercase;
+    }
+  }
+  
+  .ofertas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+    & &_div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f8d7da;
+      border-radius: 10px;
+      width: 80%;
     }
     & &_img {
       width: 100%;
