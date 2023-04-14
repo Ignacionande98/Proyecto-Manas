@@ -67,6 +67,7 @@
   font-weight: 700;
   letter-spacing: 1px;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 .contenido .contenido_p {
   text-align: center;
@@ -84,13 +85,14 @@
   align-items: start;
   gap: 20px;
   padding: 20px;
+  justify-items: center;
 }
 .locales .locales_florida {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f8d7da;
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 .locales .locales_img {
@@ -113,6 +115,7 @@
   color: #212529;
   font-weight: 700;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .main {
@@ -127,6 +130,7 @@
   text-align: center;
   color: #212529;
   margin-top: 10px;
+  text-transform: uppercase;
 }
 .main .main_hdos {
   font-size: 25px;
@@ -146,6 +150,7 @@
   color: #212529;
   font-weight: 700;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .section .section_hdos {
   text-align: center;
@@ -162,6 +167,7 @@
   margin: 0 auto;
   gap: 30px;
   padding: 20px;
+  justify-items: center;
 }
 .articulos .articulos_div {
   display: flex;
@@ -169,6 +175,7 @@
   align-items: center;
   background-color: #f8d7da;
   padding: 10px;
+  width: 85%;
 }
 .articulos .articulos_hcinco {
   text-align: center;
@@ -184,6 +191,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 .descripcion .descripcion_htres {
   font-size: 40px;
@@ -209,6 +217,7 @@
   align-items: center;
   background-color: #f8d7da;
   border-radius: 10px;
+  margin-top: 30px;
 }
 .tortas .tortas_img {
   width: 100%;
@@ -219,10 +228,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .promociones .promociones_htres {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 300;
   color: #212529;
   text-transform: uppercase;
@@ -244,11 +253,16 @@
   align-items: center;
   background-color: #f8d7da;
   border-radius: 10px;
-  width: 80%;
+  width: 60%;
+  margin-top: 30px;
+  padding: 10px;
 }
 .ofertas .ofertas_img {
   width: 100%;
   height: auto;
+}
+.ofertas .ofertas_hcuatro {
+  font-size: 20px;
 }
 
 .mapas {
@@ -263,6 +277,50 @@
   display: flex;
   width: 60%;
   border: 2px solid #f8d7da;
+}
+
+.presentacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 15px;
+  justify-items: center;
+}
+.presentacion .presentacion_div {
+  width: 80%;
+  margin-top: 40px;
+}
+.presentacion .presentacion_img {
+  width: 100%;
+  height: auto;
+}
+.presentacion .presentacion_inf {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-content: space-around;
+  background-color: #f8d7da;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  width: 70%;
+}
+.presentacion .presentacion_prf {
+  color: #212529;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.quiensoy {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.quiensoy .quiensoy_hdos {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 @media (max-width: 600px) {
@@ -292,5 +350,9 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+  }
+  .presentacion {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=main.css.map */

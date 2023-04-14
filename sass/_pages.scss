@@ -6,6 +6,7 @@
         font-weight: 700;
         letter-spacing: 1px;
         margin-top: 20px;
+        text-transform: uppercase;
     }
     & &_p {
         text-align: center;
@@ -25,6 +26,7 @@
     align-items: start;
     gap: 20px;
     padding: 20px;
+    justify-items: center;
     
     & &_florida {
         display: flex;
@@ -32,7 +34,7 @@
         flex-direction: column;
         align-items: center;
         background-color: $colorDefondo;
-        width: 100%;
+        width: 70%;
         height: auto;
     }
     & &_img {
@@ -59,6 +61,7 @@
         color: $colorPrincipal;
         font-weight: 700;
         letter-spacing: 1px;
+        text-transform: uppercase;
     }
 }
 
@@ -78,6 +81,7 @@
         text-align: center;
         color: $colorPrincipal;
         margin-top: 10px;
+        text-transform: uppercase;
     }
     & &_hdos {
         font: {
@@ -100,6 +104,7 @@
         color: $colorPrincipal;
         font-weight: 700;
         letter-spacing: 1px;
+        text-transform: uppercase;
     }
     & &_hdos {
         text-align: center;
@@ -118,6 +123,7 @@
     margin: 0 auto;
     gap: 30px;
     padding: 20px;
+    justify-items: center;
     
     & &_div {
         display: flex;
@@ -125,6 +131,7 @@
         align-items:center;
         background-color: #f8d7da;
         padding: 10px;
+        width: 85%;
         
        
     }
@@ -146,6 +153,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
     & &_htres {
         font: {
             size: 40px; 
@@ -174,6 +182,7 @@
       align-items: center;
       background-color: #f8d7da;
       border-radius: 10px;
+      margin-top: 30px;
     }
     & &_img {
       width: 100%;
@@ -185,9 +194,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
     & &_htres{
-      font-size: 40px;
+      font-size: 25px;
       font-weight: 300;
       color: #212529;
       text-transform: uppercase;
@@ -209,10 +218,16 @@
       align-items: center;
       background-color: #f8d7da;
       border-radius: 10px;
-      width: 80%;
+      width: 60%;
+      margin-top: 30px;
+      padding: 10px;
+
     }
     & &_img {
       width: 100%;
       height: auto;
+    }
+    & &_hcuatro {
+        font-size: 20px;
     }
   }
