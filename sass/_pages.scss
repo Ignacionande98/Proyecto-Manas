@@ -34,7 +34,7 @@
         flex-direction: column;
         align-items: center;
         background-color: $colorDefondo;
-        width: 70%;
+        width: 85%;
         height: auto;
     }
     & &_img {
@@ -195,8 +195,9 @@
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    
     & &_htres{
-      font-size: 25px;
+      font-size: 35px;
       font-weight: 300;
       color: #212529;
       text-transform: uppercase;
@@ -230,4 +231,73 @@
     & &_hcuatro {
         font-size: 20px;
     }
+  }
+
+  .mapas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    justify-items: center;
+    & &_div {
+      display: flex;
+      width: 30%;
+      
+      justify-content: center;
+      
+    }
+  }
+      
+  
+  
+  .presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    justify-items: center;
+    
+    & &_div {
+      width: 80%;
+      margin-top: 20px;
+    }
+    & &_img {
+      width: 100%;
+      height: auto;
+      
+    }
+    & &_inf {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      align-content: space-around;
+      background-color: $colorDefondo;
+      text-align: center;
+      padding: 20px;
+      border-radius: 30px;
+      width: 70%;
+    }
+    & &_prf {
+      color: $colorPrincipal;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+  
+  .quiensoy {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: $colorDefondo;
+    
+    
+    & &_hdos {
+      text-transform: uppercase;
+      font-size: 50px;
+      font-weight: 700;
+    }
+    
   }

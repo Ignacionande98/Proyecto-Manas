@@ -11,65 +11,16 @@
 @import "pages";
 
 
-.mapas {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 20px;
-  justify-items: center;
-  & &_div {
-    display: flex;
-    width: 60%;
-    border: 2px solid $colorDefondo;
-  }
-}
-
-
-.presentacion {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 15px;
-  justify-items: center;
-  
-  & &_div {
-    width: 80%;
-    margin-top: 40px;
-  }
-  & &_img {
-    width: 100%;
-    height: auto;
-    
-  }
-  & &_inf {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    align-content: space-around;
-    background-color: $colorDefondo;
-    text-align: center;
-    padding: 20px;
-    border-radius: 30px;
-    width: 70%;
-  }
-  & &_prf {
-    color: $colorPrincipal;
-    font-size: 15px;
-    font-weight: 300;
-  }
-}
-
-.quiensoy {
+.ubicacion {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  
-  & &_hdos {
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 700;
+  background-color: $colorDefondo;
+  & &_htres {
+    font-size: 40px;
+    font-weight: 300;
+    background-color: $colorDefondo;
+    color: $colorPrincipal;
   }
 }
 
@@ -103,15 +54,17 @@
     padding: 20px;
   }
   .mapas{
-    
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+    gap: 20px;
+    
   }
   .presentacion {
     display: grid;
     grid-template-columns: 1fr;
   }
+ 
  
   
   
