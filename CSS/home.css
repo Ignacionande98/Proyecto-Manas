@@ -569,6 +569,17 @@
         
       }
   
+    }
+
+    
+@media only screen and (max-width: 768px) and (min-width: 1024px){
+  .mapas {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+    
       
   
         
@@ -576,5 +587,4 @@
       
       
   
-    }
   

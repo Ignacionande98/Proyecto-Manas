@@ -235,20 +235,23 @@
 
   .mapas {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 20px;
-    
     justify-items: center;
     & &_div {
       display: flex;
       width: 30%;
-      
       justify-content: center;
-      
+      margin-top: 20px;
     }
+   
   }
+    
+    
+      
+      
       
   
   

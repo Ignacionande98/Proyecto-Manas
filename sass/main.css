@@ -267,7 +267,7 @@
 
 .mapas {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 20px;
@@ -277,6 +277,7 @@
   display: flex;
   width: 30%;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .presentacion {
@@ -334,6 +335,23 @@
   font-weight: 300;
   background-color: #f8d7da;
   color: #212529;
+}
+
+.encontranos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.encontranos .encontranos_prf {
+  color: #212529;
+  background-color: #f8d7da;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
