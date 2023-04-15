@@ -11,35 +11,15 @@
 @import "pages";
 
 
-.ubicacion {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  background-color: $colorDefondo;
-  & &_htres {
-    font-size: 40px;
-    font-weight: 300;
-    background-color: $colorDefondo;
-    color: $colorPrincipal;
-  }
-}
 
-.encontranos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  & &_prf {
-    color: $colorPrincipal;
-    background-color: $colorDefondo;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 10px;
-    margin-top: 10px;
-  }
-}
+
+
+
+
+
+
+
+
 
 
 

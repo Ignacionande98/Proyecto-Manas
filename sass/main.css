@@ -265,21 +265,6 @@
   font-size: 20px;
 }
 
-.mapas {
-  display: grid;
-  grid-template-columns: 1fr;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 20px;
-  justify-items: center;
-}
-.mapas .mapas_div {
-  display: flex;
-  width: 30%;
-  justify-content: center;
-  margin-top: 20px;
-}
-
 .presentacion {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -324,6 +309,21 @@
   font-weight: 700;
 }
 
+.mapas {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  justify-items: center;
+}
+.mapas .mapas_div {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .ubicacion {
   display: flex;
   justify-content: center;
@@ -331,27 +331,11 @@
   background-color: #f8d7da;
 }
 .ubicacion .ubicacion_htres {
-  font-size: 40px;
-  font-weight: 300;
-  background-color: #f8d7da;
-  color: #212529;
-}
-
-.encontranos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.encontranos .encontranos_prf {
-  color: #212529;
-  background-color: #f8d7da;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
+  background-color: #f8d7da;
+  color: #212529;
   text-transform: uppercase;
-  padding: 10px;
-  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
